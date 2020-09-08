@@ -1,3 +1,5 @@
+title: Welcome to Caitlin's Website!
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ch832648/ch832648.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
