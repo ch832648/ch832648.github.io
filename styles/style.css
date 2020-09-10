@@ -8,6 +8,14 @@ body {
   p {
     color: #F6BD60;
   }
+
+ header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+}
 .selfie1{
     max-height: 40%;
     max-width: 40%;
