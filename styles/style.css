@@ -8,4 +8,10 @@ body {
   p {
     color: #F6BD60;
   }
+.selfie1{
+    max-height: 40%;
+    max-width: 40%;
+    border-radius: 50%;
+    box-shadow: 20px 15px #7B9B37;
+  }
   
