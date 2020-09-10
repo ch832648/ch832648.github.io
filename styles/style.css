@@ -9,17 +9,5 @@ body {
     color: #F6BD60;
   }
 
- header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    padding: 10px;
-}
-.selfie1{
-    max-height: 40%;
-    max-width: 40%;
-    border-radius: 50%;
-    box-shadow: 20px 15px #7B9B37;
-  }
+
   
