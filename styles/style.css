@@ -2,7 +2,7 @@ body {
     background-color: #FEF9EF;
     font-family: 'Montserrat', sans-serif;
   }
-  h1 {
+h1 {
     color: #84A59D;
     font-family: 'Montserrat', sans-serif;
   }
@@ -10,7 +10,10 @@ h2 {
     color: #FF66B3;
     font-family: 'Sacramento', cursive;
 }
-  p {
+hr {
+    color: #6D6875;
+}
+p {
     color: #F6BD60;
     font-family: 'Montserrat', sans-serif;
   }
