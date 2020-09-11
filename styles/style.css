@@ -1,12 +1,18 @@
 body {
     background-color: #FEF9EF;
+    font-family: 'Montserrat', sans-serif;
   }
   h1 {
     color: #84A59D;
     font-family: 'Montserrat', sans-serif;
   }
+h2 {
+    color: #F28482;
+    font-family: 'Sacramento', cursive;
+}
   p {
     color: #F6BD60;
+    font-family: 'Montserrat', sans-serif;
   }
 
 
