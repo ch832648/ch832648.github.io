@@ -2,6 +2,9 @@ body {
     background-color: #FEF9EF;
     font-family: 'Montserrat', sans-serif;
   }
+header {
+ background-image: src="/imgs/wp1.jpg";   
+}
 h1 {
     color: #84A59D;
     font-family: 'Montserrat', sans-serif;
