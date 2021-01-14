@@ -1,0 +1,241 @@
+/*
+Name: Caitlin Harris
+File: style.css (for portfolio site)
+Last Edited: 12/21/2020
+Last Attempt: Added to code page, can't figure out the positioning
+ */
+
+ /*------------------INDEX.HTML-----------------------------------------*/
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+}
+/*nav bar*/
+.navbar {
+  background: #fff1e6de;
+}
+.nav-link {
+  color: black;
+  cursor: pointer;
+  font-family: 'Gilda Display', serif;
+  font-size: 1.3rem;
+}
+.navbar-brand{
+  color: black;
+  cursor: pointer;
+  font-family: 'Gilda Display', serif;
+  font-size: 2.3rem !important;
+  font-weight: 500 !important;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+/*----------------index.html, Background Image with Gradient Overlay -------------------------*/
+.header {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.781)),
+    url('./imgs/me2.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+/*---------------------index.html, paragraph style & CTA button---------------------------------------------------*/
+.description {
+  left: 75%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.description h2 {
+  color: black;
+  font-size: 3.5rem;
+  font-weight: 550;
+  font-family: 'Dawning of a New Day', cursive;
+}
+.description p {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+  font-family: 'Gilda Display', serif;
+}
+.description cite {
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: 'Cedarville Cursive', cursive;
+}
+.description a {
+  border:1px solid #818866;
+  background: #c3cf99;
+  border-radius: 0;
+  color:#fff;
+}
+.description a:hover {
+  border:1px solid #fff;
+  background:#fff;
+  color:#000;
+}
+.btn{
+  font-family: 'Gilda Display', serif;
+}
+
+/*-------------------GLOBAL PAGE DESCRIPTIONS-------------------------------------------*/
+/*--------------about.html-----------------*/
+.about img{
+  max-width: 60%;
+  float: right;
+  margin: 20px;
+}
+.about-title{
+  color: black;
+  font-size: 3.5rem;
+  font-weight: 550;
+  font-family: 'Dawning of a New Day', cursive;
+  margin: 20px;
+}
+.about p{
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: 'Gilda Display', serif;
+  margin: 10px 200px 15px 20px;
+}
+.about cite{
+  font-size: 1.7rem;
+  font-weight: 500;
+  font-family: 'Cedarville Cursive', cursive;
+  margin-left: 20px;
+}
+
+/*----------------code.html-------------------*/
+.code img{
+  max-width: 90%;
+  float: left;
+  margin-top: 10%;
+}
+.code-title{
+  color: black;
+  font-size: 3.5rem;
+  font-weight: 550;
+  font-family: 'Dawning of a New Day', cursive;
+  margin-top: 5%;
+}
+.code p{
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: 'Gilda Display', serif;
+  float: right;
+}
+
+/*----------------creative.html-------------------*/
+.creative-description h2{
+  color: black;
+  font-size: 3.5rem;
+  font-weight: 550;
+  font-family: 'Dawning of a New Day', cursive;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+.creative-description p{
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: 'Gilda Display', serif;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.creative {
+  position: relative;
+  justify-content: center;
+  margin: 4em auto;
+  padding: 1em;
+}
+.creative-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: 'Gilda Display', serif;
+}
+.creative img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+.creative p{
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: 'Gilda Display', serif;
+}
+
+/*----------------contact.html--------------*/
+.contact .form-control,
+.contact input {
+    border-radius: 0;
+    font-family: 'Gilda Display', serif;
+
+}
+.contact h3{
+  margin-top: 5%;
+  color: black;
+  font-size: 3.5rem;
+  font-weight: 550;
+  font-family: 'Dawning of a New Day', cursive;
+}
+.contact .btn{
+  background-color: #c3cf99;
+  border: 1px solid #c3cf99;
+  color: #fff;
+  margin-top: 20px;
+}
+.contact .btn:hover {
+  background-color:#333;
+  border: 1px solid #c3cf99;
+}
+.contact img{
+  max-width: 70%;
+}
+.contact p{
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: 'Gilda Display', serif;
+}
+
+
+/* Media Query to Fix Mobile View*/
+@media (max-width: 575.98px) {
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 30%;
+    transform: none;
+    text-align: center;
+  }
+  .description h2 {
+    font-size: 2em;
+  }
+  .description p {
+    font-size: 1.2rem;
+  }
+  .features {
+    margin: 0;
+  }
+}
