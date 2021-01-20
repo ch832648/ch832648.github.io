@@ -1,8 +1,8 @@
 /*
 Name: Caitlin Harris
 File: style.css (for portfolio site)
-Last Edited: 12/21/2020
-Last Attempt: Added to code page, can't figure out the positioning
+Last Edited: 1/20/2021
+Last Attempt:
  */
 
  /*------------------INDEX.HTML-----------------------------------------*/
@@ -99,7 +99,7 @@ body {
   font-size: 3.5rem;
   font-weight: 550;
   font-family: 'Dawning of a New Day', cursive;
-  margin: 20px;
+  margin-top: 10%;
 }
 .about p{
   color: black;
@@ -136,6 +136,7 @@ body {
   line-height: 1.5;
   font-family: 'Gilda Display', serif;
   float: right;
+  margin-left: 2%;
 }
 
 /*----------------creative.html-------------------*/
@@ -144,7 +145,7 @@ body {
   font-size: 3.5rem;
   font-weight: 550;
   font-family: 'Dawning of a New Day', cursive;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-left: 40%;
 }
 .creative-description p{
@@ -153,8 +154,8 @@ body {
   font-weight: 500;
   line-height: 1.5;
   font-family: 'Gilda Display', serif;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 23%;
+  max-width: 50%;
 }
 .creative {
   position: relative;
